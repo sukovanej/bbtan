@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8076988B28E0B2B0003A16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076988A28E0B2B0003A16A3 /* AppDelegate.swift */; };
 		8076988D28E0B2B0003A16A3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8076988C28E0B2B0003A16A3 /* GameScene.sks */; };
-		8076988F28E0B2B0003A16A3 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8076988E28E0B2B0003A16A3 /* Actions.sks */; };
 		8076989128E0B2B0003A16A3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076989028E0B2B0003A16A3 /* GameScene.swift */; };
 		8076989328E0B2B0003A16A3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8076989228E0B2B0003A16A3 /* GameViewController.swift */; };
 		8076989628E0B2B0003A16A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8076989428E0B2B0003A16A3 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 		8076988728E0B2B0003A16A3 /* bbtan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bbtan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8076988A28E0B2B0003A16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8076988C28E0B2B0003A16A3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		8076988E28E0B2B0003A16A3 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		8076989028E0B2B0003A16A3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8076989228E0B2B0003A16A3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8076989528E0B2B0003A16A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 			children = (
 				8076988A28E0B2B0003A16A3 /* AppDelegate.swift */,
 				8076988C28E0B2B0003A16A3 /* GameScene.sks */,
-				8076988E28E0B2B0003A16A3 /* Actions.sks */,
 				8076989028E0B2B0003A16A3 /* GameScene.swift */,
 				8076989228E0B2B0003A16A3 /* GameViewController.swift */,
 				8076989428E0B2B0003A16A3 /* Main.storyboard */,
@@ -133,7 +130,6 @@
 				8076988D28E0B2B0003A16A3 /* GameScene.sks in Resources */,
 				8076989828E0B2B1003A16A3 /* Assets.xcassets in Resources */,
 				8076989B28E0B2B1003A16A3 /* LaunchScreen.storyboard in Resources */,
-				8076988F28E0B2B0003A16A3 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -321,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
