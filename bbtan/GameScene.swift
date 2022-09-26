@@ -45,7 +45,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     private func createObstaclePoints() -> SKLabelNode {
         let obstaclePoints = SKLabelNode(text: String(obstaclePoints))
         obstaclePoints.name = "obstaclePoints"
-        obstaclePoints.position = CGPoint(x: frame.midX + 10, y: frame.midY - 20)
+        obstaclePoints.fontSize = 23
+        obstaclePoints.fontName = "AvenirNext-Bold"
+        obstaclePoints.position = CGPoint(x: frame.midX + 9, y: frame.midY - 18)
         return obstaclePoints
     }
     
