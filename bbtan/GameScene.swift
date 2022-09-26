@@ -12,11 +12,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     let ball = createBall()
     
     private static func createBall() -> SKSpriteNode {
-        let ballRadius = 30 as CGFloat
-        let ballSize = CGSize(width: ballRadius, height: ballRadius)
-        
-        let ball = SKSpriteNode(color: .white, size: ballSize)
-        ball.physicsBody = SKPhysicsBody(circleOfRadius: ballRadius / 2)
+        let ballRadius = 15 as CGFloat
+        let ball = SKSpriteNode(imageNamed: "ball")
+        ball.physicsBody = SKPhysicsBody(circleOfRadius: ballRadius)
         ball.physicsBody?.friction = 0.0
         ball.physicsBody?.restitution = 1.0
         ball.physicsBody?.allowsRotation = true
